@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>簡単トランプゲームサイト</title>
+<!-- CSS -->
+<link th:href="@{/css/common.css}" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="index-header wrapper">
+		<nav>
+			<ul class="index-nav">
+				<li><a href="#update">update</a></li>
+				<li><a href="#game">game</a></li>
+				<li><a href="#profile">profile</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="home-content wrapper" id="update">
+	</div>
+	<div class="home-content wrapper" id="game">
+		<ul class="menu-nav">
+			<li><a class="menu-btn" href="/war">戦争ゲーム</a></li>
+			<li><a class="menu-btn" href="/training/guchi">コトバ供養</a></li>
+		</ul>
+	</div>
+	<div class="contact wrapper" id="contact">
+	</div>	
+</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+html{
+	font-size: 100%;
+}
+
+body{
+	font-family:"メイリオ",sans-serif;
+	color: #432;
+}
+
+a{
+	text-decoration: none;
+}
+
+.index-nav {
+	display: flex;
+	font-size: 1.25rem;
+	text-transform: upper-case;
+	margin-top: 34px;
+	list-style: none;
+} 
+
+.index-nav li {
+	margin-left: 36px;
+}
+
+.index-nav a {
+	color: #432;
+}
+
+.index-nav a:hover {
+	color: #0bd;
+}
+
+.index-header {
+	display: flex;
+	justify-content: flex-end;
+}
